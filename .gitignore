@@ -1,2 +1,9 @@
 bin/
 obj/
+node_modules/
+dist/
+packages/*/node_modules/
+packages/*/dist/
+.pnpm-debug.log
+.DS_Store
+**/.DS_Store

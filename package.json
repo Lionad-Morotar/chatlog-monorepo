@@ -1,0 +1,15 @@
+{
+  "name": "chatlog-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.15.5",
+  "scripts": {
+    "build": "pnpm -w --filter @lionad/chatlog-claude run build",
+    "dev": "pnpm -w --filter @lionad/chatlog-claude run dev",
+    "typecheck": "pnpm -w --filter @lionad/chatlog-claude run typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "tsx": "^4.19.2",
+    "typescript": "^5.5.4"
+  }
+}

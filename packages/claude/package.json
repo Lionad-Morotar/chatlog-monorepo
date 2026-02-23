@@ -1,0 +1,19 @@
+{
+  "name": "@lionad/chatlog-claude",
+  "version": "0.0.0",
+  "description": "CLI tool for browsing and searching local Claude Code chat logs",
+  "license": "MIT",
+  "bin": {
+    "chatlog": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node -e \"require('fs').chmodSync('dist/cli.js', 0o755)\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "tsx src/cli.ts"
+  }
+}

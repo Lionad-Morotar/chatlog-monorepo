@@ -1,5 +1,7 @@
 # chatlog (Claude)
 
+> **Forked from:** [martinalderson/claude-log-cli](https://github.com/martinalderson/claude-log-cli)
+
 A quick-and-dirty CLI tool for browsing and searching your local [Claude Code](https://docs.anthropic.com/en/docs/claude-code) chat logs. Read more about how this tool fits into a self-improving CLAUDE.md workflow on [my blog](https://martinalderson.com/posts/self-improving-claude-md-files/).
 
 This repo is now NodeJS-first (TypeScript). The legacy C#/.NET implementation is preserved under `refs/claude-log-cli`.

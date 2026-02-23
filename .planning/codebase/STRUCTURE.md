@@ -62,9 +62,9 @@
 - 提交: 否 (在 .gitignore 中)
 
 **`/refs/claude-log-cli/`:**
-- 用途: C# 参考实现
-- 包含: 用于行为兼容性的遗留 C# 代码
-- 用于: 确保与原始实现的功能对等
+- 用途: C# 参考实现 (Git Submodule)
+- 链接: https://github.com/martinalderson/claude-log-cli
+- 说明: 作为原始实现的参考，本项目文档不深入研究此部分
 
 ## 关键文件位置
 
@@ -140,10 +140,9 @@
 - 内容: JavaScript 文件、声明文件、源映射
 
 **`/refs/`:**
-- 用途: 参考实现
-- 生成: 否
-- 提交: 是
-- 内容: 用于兼容性参考的 C# 实现
+- 用途: 参考实现 (Git Submodule)
+- 链接: https://github.com/martinalderson/claude-log-cli
+- 说明: 原始 C# 实现的参考仓库，如需了解详情请直接查看 upstream
 
 **`/.planning/codebase/`:**
 - 用途: 代码库文档

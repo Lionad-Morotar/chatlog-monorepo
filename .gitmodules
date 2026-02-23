@@ -1,0 +1,3 @@
+[submodule "refs/claude-log-cli"]
+	path = refs/claude-log-cli
+	url = https://github.com/martinalderson/claude-log-cli.git
